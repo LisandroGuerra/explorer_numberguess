@@ -1,1 +1,3 @@
-# numberguess
+# Number Guess
+
+Guess number game

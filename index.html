@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <title>Number Guess</title>
+</head>
+<body class="gradient">
+    <main>
+        <div class="main-screen">
+            <h1>Number Guess Game</h1>
+            <p>Guess a number between 0 and 10.</p>
+
+            <form action="">
+                <input id="tryInput" type="text" maxlength="2">
+                <button id="btnTry">Try</button>
+            </form>
+
+            <div id="triesList">Tried: [ ]</div>
+
+            <div id="toastAlert">Some alert.</div>            
+        </div>
+        <div class="result-screen hide">
+            <h2>You hit it in 5 tries</h2>
+            <button id="btnRestart">Play again</button>
+        </div>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>

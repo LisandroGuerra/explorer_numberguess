@@ -1,4 +1,4 @@
-#<h1 align="center">Guess Number Game</h1>
+<h1 align="center">Guess Number Game</h1>
 
 <p align="center">
   <a href="#-tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;

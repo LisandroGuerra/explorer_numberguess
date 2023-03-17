@@ -13,7 +13,6 @@ const max = 10
 
 let tries = []
 tryInput.focus()
-console.log(randomNumber)
 
 
 // Events
